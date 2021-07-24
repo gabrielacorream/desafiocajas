@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*posicion*/
+        .posicion {
+            display: inline-block;
+        }
+
+        /*españa*/
+        .rojoespaña {
+            height: 50px;
+            width: 200px;
+            background-color: red;
+        }
+
+        .amarilloespaña {
+            height: 50px;
+            width: 200px;
+            background-color: yellow;
+        }
+
+        /*Dinamarca*/
+        .dinamarca {
+            box-sizing: content-box;
+            background-color: rgb(241, 241, 241);
+            height: 150px;
+            width: 200px;
+        }
+
+        .rojod1 {
+            height: 70px;
+            width: 70px;
+            background-color: red;
+            display: inline-block;
+            position: relative;
+        }
+
+        .rojod2 {
+            height: 70px;
+            width: 120px;
+            background-color: red;
+            display: inline-block;
+            position: relative;
+            left: 6px;
+        }
+
+        .rojod3 {
+            height: 70px;
+            width: 70px;
+            background-color: red;
+            display: inline-block;
+            position: relative;
+            bottom: -6px;
+            right: 0px;
+        }
+
+        .rojod4 {
+            height: 70px;
+            width: 120px;
+            background-color: red;
+            display: inline-block;
+            position: relative;
+            bottom: -6px;
+            right: -6px;
+        }
+
+        /*emiratos*/
+        .emiratos {
+            position: relative;
+        }
+
+        .rojoemirato {
+            position: absolute;
+            background-color: red;
+            height: 150px;
+            width: 40px;
+        }
+
+        .verdeemirato {
+            background-color: seagreen;
+            height: 50px;
+            width: 200px;
+        }
+
+        .blancoemirato {
+            height: 50px;
+            width: 200px;
+        }
+
+        .negroemirato {
+            background-color: black;
+            height: 50px;
+            width: 200px;
+        }
+
+        /*Japon*/
+        .japon {
+            height: 150px;
+            width: 200px;
+            position: relative;
+        }
+
+        .rojojapon {
+            background-color: red;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            position: absolute;
+            top: 40px;
+            right: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <section class="posicion">
+            <div class="rojoespaña"></div>
+            <div class="amarilloespaña"></div>
+            <div class="rojoespaña"></div>
+            <p>España</p>
+        </section>
+        <section class="posicion">
+            <div class="dinamarca">
+                <div class="rojod1"></div>
+                <div class="rojod2"></div>
+                <div class="rojod3"></div>
+                <div class="rojod4"></div>
+            </div>
+            <p>Dinamarca</p>
+
+        </section>
+
+    </div>
+    <div>
+        <section class="posicion">
+            <div class="emiratos">
+                <div class="rojoemirato"></div>
+                <div class="verdeemirato"></div>
+                <div class="blancoemirato"></div>
+                <div class="negroemirato"></div>
+            </div>
+            <p>Emirato Arabes</p>
+        </section>
+        <section class="posicion">
+            <div class="japon">
+                <div class="rojojapon"></div>
+            </div>
+            <p>Japon</p>
+        </section>
+
+    </div>
+</body>
+
+</html>
